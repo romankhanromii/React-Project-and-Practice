@@ -1,0 +1,58 @@
+body{
+    background-color: dodgerblue;
+}
+#div-1{
+    background-color: white;
+    width: 30%;
+    height: 200px;
+    margin: 220px auto;
+    padding: 50px 100px;
+    text-align: center;
+    
+
+}
+.input{
+    padding: 20px 40px;
+    margin: 5px auto;
+    background-color: rgb(97, 78, 38);
+    border: 1px rgb(97, 78, 38) solid;
+    color:white;
+}
+#cont{
+    text-align: center;
+}
+#grid{
+    width: 20%;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 25%  25% 25% 25%;
+    margin: 30px auto;
+    
+    
+    
+}
+#grid button{
+    background-color:orangered;
+    color: whitesmoke;
+    font-size: larger;
+    border: 1px solid purple;
+   margin-top: 10px;
+   margin-left: 10px;
+   border: 1px solid red;
+   border-radius: 50px;
+   
+
+}
+#grid button:hover{
+    background-color: orange;
+}
+#form{
+    margin-top: 20px;
+    
+}
+#form input{
+    padding: 20px;
+    width: 17%;
+    margin-left: 10px;
+
+}
